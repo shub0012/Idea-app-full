@@ -1,0 +1,27 @@
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divItem {
+  display: flex;
+  flex-basis: 400px;
+}
+
+.searchButton {
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.align-items-center {
+  align-items: stretch !important;
+  max-width: 95vw;
+}
